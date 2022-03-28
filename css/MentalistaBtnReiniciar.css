@@ -1,0 +1,119 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 600px;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  background: linear-gradient(80.15deg, #3f8604 20.62%, #7ba05b 80.61%);
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page-title {
+  color: #fafafa;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #fafafa;
+  margin-top: 16px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.alura-logo:hover {
+  -webkit-transform: scale(1.25);
+  /* Safari and Chrome */
+  -moz-transform: scale(1.25);
+  /* Firefox */
+  -ms-transform: scale(1.25);
+  /* IE 9 */
+  -o-transform: scale(1.25);
+  /* Opera */
+  transform: scale(1.25);
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 0 auto;
+  padding: 6px;
+  font-family: "Cabin", sans-serif;
+  border-radius: 18px;
+  outline: none;
+  background: #fafafa;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 4px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 4px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 4px -1px rgba(0, 0, 0, 0.75);
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 1.125rem;
+  background: #00b7d2;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 4px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 4px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 4px -1px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+
+button:before {
+  margin: 0 auto;
+}
+
+button:hover {
+  box-shadow: 7px 7px darken(#00b7d2, 20%);
+  transform: scale(1.03);
+}
+
+.resultado {
+  color: #f8f8ff;
+  text-align: center;
+  margin-top: 16px;
+  background: #008000;
+  border-radius: 60px;
+  box-shadow: 1px 1px 4px -1px rgba(0, 0, 0, 0.75);
+}
+
+.instrucao {
+  color: #f8f8ff;
+  text-align: center;
+  margin-top: 16px;
+  background: #ff2401;
+  border-radius: 60px;
+  box-shadow: 1px 1px 4px -1px rgba(0, 0, 0, 0.75);
+}
+
+.errou {
+  color: #f8f8ff;
+  text-align: center;
+  margin-top: 16px;
+  background: #ffbf00;
+  border-radius: 60px;
+  box-shadow: 1px 1px 4px -1px rgba(0, 0, 0, 0.75);
+}
