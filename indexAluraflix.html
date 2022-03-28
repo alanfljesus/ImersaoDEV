@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleAluraflix.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+    
+    <div class="container">
+    
+        <h1 class="page-title">
+            Anime <span id="alura">flix<span id="ifen">_</span></span>
+        </h1>
+        <div class="user-interact">
+
+            <form><input type="url" id="imagemAnime" placeholder="Endereço URL do anime"></form>
+
+            <br>
+
+            <input type="text" id="nomeAnime" placeholder="Nome do anime">
+    
+            <br>
+            <br>
+    
+            <button type="submit" onclick="adicionarAnime()" class="btn-add">Adicionar</button>
+            <button type="submit" data-ref="linha-1 onclick="removerAnime()" class="btn-rem">Remover</button>
+        </div>
+    
+        <h2 id="instrucao"></h2>
+        <h2 id="instrucao2"></h2>
+    
+        <div class="container-images">
+    
+            <div id="lista-animes"></div>
+    
+        </div>
+    
+    </div>
+
+    <script src="js/jsAlurafilx.js" type="text/javascript"></script>
+</body>
+</html>
+
+
+    <!-- <div class="container">
+        <h1 class="page-title">
+            AnimeFlix
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+            alt=""><br>
+    
+        <input type="url" class="link" id="link" placeholder="URL do anime" title="http://" />
+        <input type="text" class="name" id="name" placeholder="Nome do anime">
+        <br>
+        <br>
+        <button class="button-url" onclick="Add()">Adicionar anime</button>
+        <button class="button-name" onclick="Add()">Remover anime</button>
+    </div>
+    
+    
+    <div>
+        <p id="listaAnimes"></p>
+    </div> -->

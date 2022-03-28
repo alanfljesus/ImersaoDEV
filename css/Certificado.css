@@ -1,0 +1,63 @@
+* {
+    text-decoration: none !important;
+}
+
+body {
+    background-color: #00bcd4;
+}
+
+a {
+    color: #000;
+}
+
+section {
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 15px;
+    max-width: 500px;
+    border-radius: 20px;
+    border: #000;
+    margin: 100px auto;
+    display: block;
+    -webkit-box-shadow: 0px 0px 13px 7px rgba(0, 0, 0, 0.32);
+    box-shadow: 0px 0px 13px 7px rgba(0, 0, 0, 0.32);
+}
+
+section h1 {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+section h2 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+div {
+    background-color: #f3f8ff;
+    border: 1px solid #606060;
+    border-radius: 15px;
+}
+
+img.logo {
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+
+img.foto {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: block;
+    transform: translateY(-50%);
+    border: 9px solid #fff;
+}
+
+header {
+    border-radius: 15px;
+    background-image: url('https://img.freepik.com/vetores-gratis/por-do-sol-ou-nascer-do-sol-no-oceano-paisagem-da-natureza_33099-2244.jpg?t=st=1648490149~exp=1648490749~hmac=d6821a168033e27cd0a91c09695d14d45f646e3817afef6c57967738394fb278&w=826');
+    background-size: cover;
+    height: 80px;
+}

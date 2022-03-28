@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    text-align: center;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/tabela-classificacao-bg.png");
+    background-color: #111;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fafafa;
+}
+
+#novoJogador {
+    position: absolute;
+    top: 50px;
+    left: 55px;
+    outline: none;
+}
+
+.labelNovoJogador {
+    position: absolute;
+    top: 25px;
+    left: 91px;
+}
+
+.btn-adicionar-jogador {
+    position: absolute;
+    left: 75px;
+
+}
+
+.btn-remover-jogador {
+    position: absolute;
+    left: 76px;
+}
+
+.btn-limpar-pontos {
+    position: absolute;
+    left: 74px;
+}
+
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+table {
+    position: relative;
+    margin-top: 80px;
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: white;
+}
+
+th,
+tr,
+td {
+    border: solid 1px white;
+    color: #fafafa;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+    border-radius: 7px;
+    padding: 4px;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+        sans-serif;
+    outline: none;
+    border: none;
+    text-align: center;
+    color: #333333;
+}
+
+
+button {
+    background-color: #481d9f;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fafafa;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+button:hover,
+button:focus {
+    background-color: #6036b5;
+}

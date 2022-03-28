@@ -1,0 +1,78 @@
+body {
+    margin: 0 auto;
+    padding-top: 10px;
+    max-width: 310px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    background: linear-gradient(68.15deg, #00ced1 16.62%, #20b2aa 89.61%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 310px;
+    padding: 20px;
+    height: 90vh;
+    border: transparent;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px #4e4e4e;
+}
+
+.fieldset {
+    max-width: 310px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: none;
+}
+
+input {
+    background: #fffafa;
+    outline: none;
+    border: none;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px #4e4e4e;
+    color: #404040;
+    text-align: center;
+}
+
+button {
+    box-shadow: 0px 0px 4px 0px #4e4e4e;
+    padding: 4px 8px;
+    border-radius: 10px;
+    border: none;
+    background: #fffafa;
+    color: #111111;
+    cursor: pointer;
+}
+
+.page-title {
+    max-width: 310px;
+    color: #fffafa;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    max-width: 310px;
+    color: #fffafa;
+    margin-top: 5px;
+}
+
+.page-logo {
+    max-width: 310px;
+    width: 200px;
+}
+
+.alura-logo {
+    max-width: 310px;
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.saida {
+    color: #2e2e2e;
+}
